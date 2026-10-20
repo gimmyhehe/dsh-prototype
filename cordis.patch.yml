@@ -1,0 +1,6 @@
+# dsh-prototype bundle patch: insert the plugin into the Web profile.
+# Install with:
+#   dsh plugin --profile web add /Users/gimmy/projects/dsh-prototype
+- insert:
+    - id: dsh-prototype
+      name: dsh-prototype
